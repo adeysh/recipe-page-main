@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    /* Colors */
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+
+    /* spacing */
+    --padding-xxs: 4px;
+    --padding-xs: 8px;
+    --padding-s: 12px;
+    --padding-m: 16px;
+    --padding-l: 24px;
+    --padding-xl: 32px;
+    --padding-xxl: 48px;
+    --padding-xxxl: 64px;
+
+    --margin-xxs: 4px;
+    --margin-xs: 8px;
+    --margin-s: 12px;
+    --margin-m: 16px;
+    --margin-l: 24px;
+    --margin-xl: 32px;
+    --margin-xxl: 48px;
+    --margin-xxxl: 64px;
+
+    /* border-radius */
+    --border-radius-10: 10px;
+
+}

@@ -1,0 +1,10 @@
+* {
+    font-family: var(--font-family-outfit);
+}
+
+h1,
+h2,
+.card__header {
+    letter-spacing: var(--letter-spacing);
+    margin-bottom: var(--margin-m);
+}

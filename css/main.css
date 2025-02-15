@@ -1,0 +1,119 @@
+@import url('reset.css');
+@import url('variables.css');
+@import url('typography.css');
+@import url('utils.css');
+
+body {
+    background-color: var(--Stone-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-xxxl);
+}
+
+.card {
+    max-width: 640px;
+    background-color: var(--White);
+    padding: var(--padding-xl);
+    border-radius: var(--border-radius-10);
+}
+
+.card__header-image {
+    border-radius: var(--border-radius-10);
+}
+
+.card__title {
+    font-family: var(--font-family-young-serif);
+    font-size: var(--text-preset-3);
+    font-weight: var(--font-weight-outfit-bolder);
+    font-style: var(--font-style-young-serif);
+    color: var(--Stone-900);
+}
+
+.card__subsection h2 {
+    font-family: var(--font-family-young-serif);
+    font-size: var(--text-preset-2);
+    font-weight: var(--font-weight-outfit-bold);
+    font-style: var(--font-style-young-serif);
+    color: var(--Brown-800);
+}
+
+.card__content p {
+    font-family: var(--font-family-outfit);
+    font-size: var(--text-preset-1);
+    font-weight: var(--font-weight-outfit-light);
+    color: var(--Stone-600);
+    margin-bottom: var(--margin-l);
+}
+
+.card__subsection {
+    border-bottom: 1px solid var(--Stone-150);
+    padding: var(--padding-m) 0;
+}
+
+.card__subsection:last-child {
+    border-bottom: none;
+}
+
+.card__details {
+    padding: var(--padding-m) var(--padding-l);
+    border-radius: var(--border-radius-10);
+    background-color: var(--Rose-50);
+}
+
+.card__details h3 {
+    color: var(--Rose-800);
+    font-family: var(--font-family-outfit);
+    font-size: 16px;
+    font-weight: var(--font-weight-outfit-bolder);
+}
+
+.card__list {
+    padding-left: var(--padding-l);
+}
+
+.card__listItem {
+    margin: var(--margin-s) 0;
+    font-family: var(--font-family-outfit);
+    font-size: var(--text-preset-1);
+    font-weight: var(--font-weight-outfit-light);
+    padding-left: var(--padding-m);
+    color: var(--Stone-600);
+}
+
+.card__listItem::marker {
+    color: var(--Stone-600);
+    font-family: var(--font-family-outfit);
+    font-weight: var(--font-weight-outfit-bolder);
+}
+
+.title {
+    font-weight: var(--font-weight-outfit-bolder);
+    color: var(--Stone-600);
+}
+
+.card__table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Change this */
+    text-align: left;
+    font-family: var(--font-family-outfit);
+    font-size: var(--text-preset-1);
+}
+
+.card__table tr,
+.card__table th,
+.card__table td {
+    border-bottom: 1px solid var(--Stone-150);
+    padding: var(--padding-s) var(--padding-l);
+}
+
+.card__table th {
+    color: var(--Stone-600);
+    font-weight: var(--font-weight-outfit-light);
+}
+
+.card__table td {
+    color: var(--Brown-800);
+    font-weight: var(--font-weight-outfit-bolder);
+}
