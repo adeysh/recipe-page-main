@@ -1,7 +1,7 @@
 @import url('reset.css');
 @import url('variables.css');
 @import url('typography.css');
-@import url('utils.css');
+@import url('utils.css') (screen) and (max-width: 375px);
 
 body {
     background-color: var(--Stone-100);
@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: var(--padding-xxxl);
+    position: relative;
 }
 
 .card {
@@ -116,4 +117,36 @@ body {
 .card__table td {
     color: var(--Brown-800);
     font-weight: var(--font-weight-outfit-bolder);
+}
+
+.attribution {
+    position: absolute;
+    bottom: .3125rem;
+    font-family: var(--font-family-outfit);
+    font-size: var(--text-preset-1);
+    font-weight: var(--font-weight-outfit-light);
+}
+
+
+@media screen and (max-width: 375px) {
+    body {
+        padding: 0;
+    }
+
+    .card {
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .card__header-image {
+        border-radius: 0;
+    }
+
+    .card__content {
+        padding: var(--padding-xl);
+    }
+
+    .attribution {
+        font-size: var(--text-preset-1);
+    }
 }
