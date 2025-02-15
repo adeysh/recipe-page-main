@@ -1,7 +1,7 @@
 @import url('reset.css');
 @import url('variables.css');
 @import url('typography.css');
-@import url('utils.css') (screen) and (max-width: 375px);
+@import url('utils.css');
 
 body {
     background-color: var(--Stone-100);
